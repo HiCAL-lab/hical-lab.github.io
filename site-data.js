@@ -9,8 +9,8 @@ window.HICAL_DATA = {
   lab: {
     name: "HiCAL",
     fullName: "High-Speed Computational Aerodynamics Laboratory",
-    statement: "High-fidelity computation and stability analysis for hypersonic flows, shock interactions, jet acoustics, and flow instability.",
-    introTitle: "Computing the physics of high-speed flow.",
+    statement: "High-fidelity computations and stability analysis for transonic, supersonic and hypersonic flows.",
+    introTitle: "Computing the physics of high-speed flows.",
     introText: "HiCAL is a computational fluid dynamics research group in Mechanical and Aerospace Engineering at the University of Colorado Colorado Springs. We use DNS, LES, high-fidelity CFD, and stability analysis to understand unsteady compressible-flow phenomena and the mechanisms that govern them.",
     university: "Mechanical & Aerospace Engineering · University of Colorado Colorado Springs",
     email: "alakshmi@uccs.edu",
@@ -49,7 +49,7 @@ window.HICAL_DATA = {
 
   projects: [
     {
-      kicker: "HYPERSONICS · JOURNAL OF FLUID MECHANICS · 2025",
+      kicker: "HYPERSONICS",
       title: "How free-stream disturbances reshape hypersonic transition",
       text: "DNS and global stability analysis of a Mach 6 cone–cylinder–flare flow reveal distinct transition pathways under quiet and elevated disturbance environments, with major consequences for separation and aerothermal loading.",
       meta: "DNS · Global stability · Hypersonic transition",
@@ -58,7 +58,7 @@ window.HICAL_DATA = {
       credit: "Lakshmi Narasimha Prasad, Sarath & Unnikrishnan, JFM 1016 (2025), CC BY 4.0"
     },
     {
-      kicker: "SHOCK–BOUNDARY-LAYER INTERACTIONS · AIAA · 2025–2026",
+      kicker: "SHOCK–BOUNDARY-LAYER INTERACTIONS",
       title: "Three-dimensional dynamics of axisymmetric SWBLI",
       text: "High-fidelity simulations show how an impinging oblique shock drives strongly three-dimensional separation, multiple vortex systems, spectral bands of unsteadiness, and azimuthally varying surface loads over axisymmetric bodies.",
       meta: "I-LES · Shock interactions · 3D separation",
@@ -67,7 +67,7 @@ window.HICAL_DATA = {
       credit: "Related separated-flow visualization from Lakshmi Narasimha Prasad et al., JFM 1016 (2025), CC BY 4.0"
     },
     {
-      kicker: "JET ACOUSTICS · JOURNAL OF FLUID MECHANICS · 2024",
+      kicker: "JET ACOUSTICS AND FLOW CONTROL",
       title: "Controlling the structures that radiate jet noise",
       text: "Small-perturbation plasma forcing reorganizes the three-dimensional shear-layer response of a supersonic rectangular jet, providing a route to alter coherent structures and reduce radiative efficiency without large changes to the mean flow.",
       meta: "LES · Supersonic jets · Aeroacoustics · Flow control",
@@ -76,7 +76,7 @@ window.HICAL_DATA = {
       credit: "Lakshmi Narasimha Prasad & Unnikrishnan, JFM 979 (2024), CC BY 4.0"
     },
     {
-      kicker: "HYDRODYNAMIC STABILITY · JFM / AIAA",
+      kicker: "HYDRODYNAMIC STABILITY",
       title: "Finding the instability mechanisms before nonlinear breakdown",
       text: "Linearized Navier–Stokes analysis and modal tools are used alongside LES and DNS to identify receptive frequencies, global modes, shear-layer instabilities, and coherent structures that organize high-speed flows.",
       meta: "NS-MFP · SPOD · Linear analysis",
