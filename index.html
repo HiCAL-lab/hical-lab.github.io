@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="HiCAL — the High-Speed Computational Aerodynamics Laboratory led by Anirudh Lakshmi Narasimha Prasad at UCCS. Research in hypersonics, shock–boundary-layer interactions, jet acoustics, and hydrodynamic stability." />
+  <meta name="theme-color" content="#06111f" />
+  <meta property="og:title" content="HiCAL | High-Speed Computational Aerodynamics Laboratory" />
+  <meta property="og:description" content="Computational research in hypersonics, shock interactions, jet acoustics, and hydrodynamic stability at UCCS." />
+  <meta property="og:type" content="website" />
+  <title>HiCAL | High-Speed Computational Aerodynamics Laboratory</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="nav-wrap shell">
+      <a class="brand" href="#top" aria-label="HiCAL home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 72 34" role="img"><path d="M2 25 L33 9 L67 3 L38 18 L70 30 L36 23 Z"/><path class="shock" d="M31 9 L43 21"/></svg>
+        </span>
+        <span class="brand-word">Hi<span>CA</span><b>L</b></span>
+      </a>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#work">Selected Work</a>
+        <a href="#people">People</a>
+        <a href="#publications">Publications</a>
+        <a href="#software">Methods</a>
+        <a href="#join" class="nav-cta">Join Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <canvas id="flowCanvas" aria-hidden="true"></canvas>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="shell hero-layout">
+        <div class="hero-inner">
+          <div class="eyebrow">High-Speed Computational Aerodynamics Laboratory</div>
+          <h1>We compute flows where <em>compressibility</em> changes everything.</h1>
+          <p class="hero-copy" id="heroStatement">High-fidelity computation and stability analysis for hypersonic flows, shock interactions, jet acoustics, and flow instability.</p>
+          <p class="hero-pi">Anirudh Lakshmi Narasimha Prasad · Assistant Professor · UCCS</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research">Explore our research</a>
+            <a class="button ghost" href="#join">Join the lab</a>
+          </div>
+          <div class="motto" aria-label="Lab motto">
+            <span>Simulate</span><i></i><span>Understand</span><i></i><span>Advance</span>
+          </div>
+        </div>
+        <div class="hero-identity" aria-label="HiCAL laboratory identity">
+          <img src="assets/hical-wordmark.png" alt="HiCAL — Simulate, Understand, Advance" />
+          <div class="identity-rule"></div>
+          <p>Mechanical &amp; Aerospace Engineering<br><span>University of Colorado Colorado Springs</span></p>
+        </div>
+      </div>
+      <div class="hero-readout shell" aria-hidden="true">
+        <span>M<sub>∞</sub> &gt; 1</span>
+        <span>∂U/∂t + ∇·F(U) = 0</span>
+        <span>CFL ≤ CFL<sub>max</sub></span>
+      </div>
+    </section>
+
+    <section class="intro section shell">
+      <div>
+        <p class="section-kicker">What we do</p>
+        <h2 id="introTitle">Computing the physics of high-speed flow.</h2>
+      </div>
+      <p class="lead" id="introText">HiCAL is a computational fluid dynamics research group in Mechanical and Aerospace Engineering at the University of Colorado Colorado Springs.</p>
+    </section>
+
+    <section id="research" class="section shell">
+      <div class="section-heading">
+        <div><p class="section-kicker">Research</p><h2>Questions at the edge of predictability.</h2></div>
+        <p>We combine high-fidelity computation with stability and modal analysis to connect observed flow structures to the mechanisms that generate them.</p>
+      </div>
+      <div class="research-grid" id="researchGrid"></div>
+    </section>
+
+    <section id="work" class="section work-section">
+      <div class="shell">
+        <div class="section-heading">
+          <div><p class="section-kicker">Selected work</p><h2>From governing equations to physical insight.</h2></div>
+          <p>Representative work spanning hypersonic transition, shock interactions, jet-noise control, and hydrodynamic stability.</p>
+        </div>
+        <div class="work-grid" id="workGrid"></div>
+        <p class="rights-note">Research figures shown here are drawn from open-access publications where reuse is permitted and are attributed on each image. Publisher-hosted papers with more restrictive reuse terms are linked rather than copied.</p>
+      </div>
+    </section>
+
+    <section id="people" class="section shell">
+      <div class="section-heading">
+        <div><p class="section-kicker">People</p><h2>The group behind the computation.</h2></div>
+        <p>HiCAL is led by Anirudh Lakshmi Narasimha Prasad in the UCCS Department of Mechanical &amp; Aerospace Engineering.</p>
+      </div>
+      <div class="people-grid" id="peopleGrid"></div>
+    </section>
+
+    <section id="publications" class="section publications-section">
+      <div class="shell">
+        <div class="section-heading">
+          <div><p class="section-kicker">Publications</p><h2>Recent papers.</h2></div>
+          <a class="text-link" id="scholarLink" href="#" target="_blank" rel="noreferrer">Full record on Google Scholar ↗</a>
+        </div>
+        <div class="publication-list" id="publicationList"></div>
+      </div>
+    </section>
+
+    <section id="software" class="section shell">
+      <div class="section-heading">
+        <div><p class="section-kicker">Computation</p><h2>Methods for interrogating complex flows.</h2></div>
+        <p>High-fidelity CFD is paired with stability, spectral, and modal tools to identify the physics organizing unsteady high-speed flows.</p>
+      </div>
+      <div class="software-grid" id="softwareGrid"></div>
+    </section>
+
+    <section id="join" class="section shell join-wrap">
+      <div class="join-card">
+        <div>
+          <p class="section-kicker">Join HiCAL</p>
+          <h2>Interested in computational aerodynamics?</h2>
+          <p id="joinText">HiCAL is building a team of students interested in CFD, high-speed aerodynamics, scientific computing, aeroacoustics, and flow stability.</p>
+        </div>
+        <div class="join-actions">
+          <a class="button primary" id="emailLink" href="#">Get in touch</a>
+          <a class="button ghost" id="departmentLink" href="https://eas.uccs.edu/departments/mechanical-and-aerospace-engineering" target="_blank" rel="noreferrer">UCCS MAE ↗</a>
+          <a class="button ghost" id="cvLink" href="#">PI CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-grid">
+      <div>
+        <div class="footer-brand">HiCAL</div>
+        <p>High-Speed Computational Aerodynamics Laboratory</p>
+      </div>
+      <div>
+        <p id="footerAffiliation">Mechanical &amp; Aerospace Engineering · University of Colorado Colorado Springs</p>
+        <p class="muted">Anirudh Lakshmi Narasimha Prasad · Simulate · Understand · Advance</p>
+      </div>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="site-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
