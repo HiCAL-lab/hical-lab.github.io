@@ -54,8 +54,7 @@ window.HICAL_DATA = {
       text: "DNS and global stability analysis of a Mach 6 cone–cylinder–flare flow reveal distinct transition pathways under quiet and elevated disturbance environments, with major consequences for separation and aerothermal loading.",
       meta: "DNS · Global stability · Hypersonic transition",
       link: "https://doi.org/10.1017/jfm.2025.10456",
-      image: "https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022112025104564/resource/name/optimisedImage-png-S0022112025104564_figAb.jpg?pub-status=live",
-      credit: "Lakshmi Narasimha Prasad, Sarath & Unnikrishnan, JFM 1016 (2025), CC BY 4.0"
+      image: "Hypersonics.png"
     },
     {
       kicker: "SHOCK–BOUNDARY-LAYER INTERACTIONS",
@@ -63,8 +62,7 @@ window.HICAL_DATA = {
       text: "High-fidelity simulations show how an impinging oblique shock drives strongly three-dimensional separation, multiple vortex systems, spectral bands of unsteadiness, and azimuthally varying surface loads over axisymmetric bodies.",
       meta: "I-LES · Shock interactions · 3D separation",
       link: "https://doi.org/10.2514/6.2025-3826",
-      image: "https://static.cambridge.org/binary/version/id/urn%3Acambridge.org%3Aid%3Abinary-alt%3A20251229022042-85065-mediumThumb-png-S0022112025104564_fig6.jpg",
-      credit: "Related separated-flow visualization from Lakshmi Narasimha Prasad et al., JFM 1016 (2025), CC BY 4.0"
+      image: "AxiSBLI.png"
     },
     {
       kicker: "JET ACOUSTICS AND FLOW CONTROL",
@@ -72,17 +70,15 @@ window.HICAL_DATA = {
       text: "Small-perturbation plasma forcing reorganizes the three-dimensional shear-layer response of a supersonic rectangular jet, providing a route to alter coherent structures and reduce radiative efficiency without large changes to the mean flow.",
       meta: "LES · Supersonic jets · Aeroacoustics · Flow control",
       link: "https://doi.org/10.1017/jfm.2023.1037",
-      image: "https://static.cambridge.org/binary/version/id/urn%3Acambridge.org%3Aid%3Abinary-alt%3A20240718034430-08133-mediumThumb-png-S0022112023010376_fig8.jpg",
-      credit: "Lakshmi Narasimha Prasad & Unnikrishnan, JFM 979 (2024), CC BY 4.0"
+      image: "Jet_noise.png",
     },
     {
       kicker: "HYDRODYNAMIC STABILITY",
       title: "Finding the instability mechanisms before nonlinear breakdown",
       text: "Linearized Navier–Stokes analysis and modal tools are used alongside LES and DNS to identify receptive frequencies, global modes, shear-layer instabilities, and coherent structures that organize high-speed flows.",
-      meta: "NS-MFP · SPOD · Linear analysis",
+      meta: "NS-MFP · Linear analysis",
       link: "https://doi.org/10.2514/1.J064967",
-      image: "https://static.cambridge.org/binary/version/id/urn%3Acambridge.org%3Aid%3Abinary-alt%3A20251229022042-00706-mediumThumb-png-S0022112025104564_fig9.jpg",
-      credit: "Instability-spectrum visualization from Lakshmi Narasimha Prasad et al., JFM 1016 (2025), CC BY 4.0"
+      image: "Stability.png",
     }
   ],
 
