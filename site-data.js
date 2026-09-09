@@ -42,7 +42,7 @@ window.HICAL_DATA = {
     {
       number: "04",
       title: "Hydrodynamic Stability",
-      text: "Global and convective instability mechanisms in high-speed shear layers and separated flows using linearized Navier–Stokes analysis, SPOD, and high-fidelity simulation.",
+      text: "Global and convective instability mechanisms in high-speed shear layers and separated flows using linearized Navier–Stokes analysis and modal analysis.",
       tags: ["Global stability", "SPOD", "NS-MFP"]
     }
   ],
@@ -75,7 +75,7 @@ window.HICAL_DATA = {
     {
       kicker: "HYDRODYNAMIC STABILITY",
       title: "Finding the instability mechanisms before nonlinear breakdown",
-      text: "Linearized Navier–Stokes analysis and modal tools are used alongside LES and DNS to identify receptive frequencies, global modes, shear-layer instabilities, and coherent structures that organize high-speed flows.",
+      text: "Linearized Navier–Stokes analysis and modal analysis tools are used to identify receptive frequencies, global modes, instabilities, and coherent structures that show up in high-speed flows.",
       meta: "NS-MFP · Linear analysis",
       link: "https://doi.org/10.2514/1.J064967",
       image: "Stability.png",
