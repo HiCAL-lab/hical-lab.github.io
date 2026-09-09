@@ -4,7 +4,7 @@ window.HICAL_DATA = {
     fullName: "High-Speed Computational Aerodynamics Laboratory",
     statement: "High-fidelity computations and stability analysis for transonic, supersonic and hypersonic flows.",
     introTitle: "Computing the physics of high-speed flows.",
-    introText: "HiCAL is a computational fluid dynamics research group in Mechanical and Aerospace Engineering at the University of Colorado Colorado Springs. We use high-fidelity CFD, stability analysis and data driven techniques to understand unsteady compressible-flow phenomena and the mechanisms that govern them.",
+    introText: "HiCAL is a computational fluid dynamics (CFD) research group in Mechanical and Aerospace Engineering at the University of Colorado Colorado Springs. We use high-fidelity CFD, stability analysis and data driven techniques to understand unsteady compressible-flow phenomena and the mechanisms that govern them.",
     university: "Mechanical & Aerospace Engineering · University of Colorado Colorado Springs",
     email: "alakshmi@uccs.edu",
     scholar: "https://scholar.google.com/citations?user=q24xX7AAAAAJ&hl=en&oi=ao",
@@ -81,7 +81,7 @@ window.HICAL_DATA = {
         { label: "Google Scholar", href: "https://scholar.google.com/citations?user=q24xX7AAAAAJ&hl=en&oi=ao" },
         { label: "LinkedIn", href: "https://www.linkedin.com/in/anirudh-lakshmi-narasimha-prasad" }
       ],
-      image: ""
+      image: "Headshot_Anirudh.png"
     }
   ],
 
